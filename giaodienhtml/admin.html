@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="../css/css.css">
+</head>
+
+<body>
+    <div class="trangchu">
+        <div class="row tieudead">
+            <h1>Trang Quản Trị Của Admin</h1>
+        </div>
+        <div class="row box">
+            <div class="boxtrai">
+                <div class="loai logoam tren">
+                    <img src="image/logo-removebg-preview.png" width="150px" height="150px" alt="">
+                </div>
+                <div class="loai hieuung">
+                    <ul>
+                        <li><a href="index.php?act=adddm">Danh Mục</a></li>
+                        <li><a href="index.php?act=addsp">Sản Phẩm</a></li>
+                        <li><a href="">Tài Khoản</a></li>
+                        <li><a href="">Thống Kê</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="boxphai">
+                <div class="tieudeb">
+                    <h2>Thêm Danh Mục</h2>
+                </div>
+                <div class="bang">
+                    <form action="index.php?act=adddm" method="post"></form>
+                    <div class="maloai">
+                        Mã Loại<br>
+                        <input type="text" name="maloai" disabled>
+                    </div>
+                    <div class="maloai">
+                        Tên Loại<br>
+                        <input type="text" name="tenloai">
+                    </div>
+                    <div class="nut">
+
+                        <input type="submit" name="Thêm Mới">
+                        <a href="index.php?act=listdm"><input type="button" value="Danh sách"></a>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="row foter">
+        <p>&copy; 2023 BaByMaMa. Tất cả các quyền được bảo lưu.</p>
+        <p>Địa chỉ: Trịnh Văn Bô, Nam Từ Liêm, Hà Nội</p>
+    </div>
+</footer>
+
+</html>
